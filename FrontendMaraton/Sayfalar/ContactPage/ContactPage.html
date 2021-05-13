@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="contactpageCSS.css" rel="stylesheet" />
+</head>
+<body style="background-image: url(contactarkaplan.jpg);background-size:auto">
+
+    <div>
+
+        <input id="ad" type="text" class="inputTextbox" placeholder="Ad" required autocomplete="on">
+        <input id="soyad" type="text" class="inputTextbox" placeholder="Soyad" required autocomplete="on">
+        <input id="konu" type="text" class="inputTextbox" placeholder="Konu" required autofocus>
+        <textarea class="place" placeholder="Detaylı Açıklama" rows="10" cols="40"></textarea>
+        <button onclick="MailOlustur(document.getElementById('ad').value, document.getElementById('soyad').value, document.getElementById('konu').value" class="button" type="submit">GÖNDER</button>
+    </div>
+
+
+    <div class="MainPageLink">
+        <a href="../MainPage/MainPage.html"><span style="color:white">Ana Sayfaya Dönmek İçin Tıklayın</span></a>
+    </div>
+    <script src="../../JavaScript.js"></script>
+</body>
+</html>

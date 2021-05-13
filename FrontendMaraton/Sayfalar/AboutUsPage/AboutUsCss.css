@@ -1,0 +1,52 @@
+﻿body {
+    background-image:url(../../Resimler/arkaplan.jpg);
+    background-size:cover;
+}
+div.transbox {
+    height: 300px;
+    width: 300px;
+    margin: 30px 50px 30px 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+   
+}
+
+div.transboxBaslık {
+    height: 50px;
+    margin: 100px 300px 10px 300px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    padding-left:300px;
+}
+.yanyanabox {
+    float: left;
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 40px;
+    border: 1px solid black;
+    color: #941494;
+}
+.MainPageLink{
+    text-decoration:none;
+    font-family:Gabriola;
+    font-size:20px;
+    color:white;
+    opacity:0.6;
+    margin:100px 100px 100px 550px;
+}
+p{
+    text-align:center;
+}
+p:hover{
+    filter:alpha(opacity=50);
+}
